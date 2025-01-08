@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5417E5362D2E4431009F70AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5417E5172D2E442F009F70AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5417E51E2D2E442F009F70AE;
+			remoteInfo = "VKart-MVP-Combine";
+		};
+		5417E5402D2E4431009F70AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5417E5172D2E442F009F70AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5417E51E2D2E442F009F70AE;
+			remoteInfo = "VKart-MVP-Combine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5417E51F2D2E442F009F70AE /* VKart-MVP-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VKart-MVP-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5417E5352D2E4431009F70AE /* VKart-MVP-CombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VKart-MVP-CombineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5417E53F2D2E4431009F70AE /* VKart-MVP-CombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VKart-MVP-CombineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5417E5472D2E4431009F70AE /* Exceptions for "VKart-MVP-Combine" folder in "VKart-MVP-Combine" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5417E51E2D2E442F009F70AE /* VKart-MVP-Combine */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5417E5212D2E442F009F70AE /* VKart-MVP-Combine */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5417E5472D2E4431009F70AE /* Exceptions for "VKart-MVP-Combine" folder in "VKart-MVP-Combine" target */,
+			);
+			path = "VKart-MVP-Combine";
+			sourceTree = "<group>";
+		};
+		5417E5382D2E4431009F70AE /* VKart-MVP-CombineTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VKart-MVP-CombineTests";
+			sourceTree = "<group>";
+		};
+		5417E5422D2E4431009F70AE /* VKart-MVP-CombineUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VKart-MVP-CombineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5417E51C2D2E442F009F70AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417E5322D2E4431009F70AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417E53C2D2E4431009F70AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5417E5162D2E442F009F70AE = {
+			isa = PBXGroup;
+			children = (
+				5417E5212D2E442F009F70AE /* VKart-MVP-Combine */,
+				5417E5382D2E4431009F70AE /* VKart-MVP-CombineTests */,
+				5417E5422D2E4431009F70AE /* VKart-MVP-CombineUITests */,
+				5417E5202D2E442F009F70AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5417E5202D2E442F009F70AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5417E51F2D2E442F009F70AE /* VKart-MVP-Combine.app */,
+				5417E5352D2E4431009F70AE /* VKart-MVP-CombineTests.xctest */,
+				5417E53F2D2E4431009F70AE /* VKart-MVP-CombineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5417E51E2D2E442F009F70AE /* VKart-MVP-Combine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5417E5482D2E4431009F70AE /* Build configuration list for PBXNativeTarget "VKart-MVP-Combine" */;
+			buildPhases = (
+				5417E51B2D2E442F009F70AE /* Sources */,
+				5417E51C2D2E442F009F70AE /* Frameworks */,
+				5417E51D2D2E442F009F70AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5417E5212D2E442F009F70AE /* VKart-MVP-Combine */,
+			);
+			name = "VKart-MVP-Combine";
+			packageProductDependencies = (
+			);
+			productName = "VKart-MVP-Combine";
+			productReference = 5417E51F2D2E442F009F70AE /* VKart-MVP-Combine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5417E5342D2E4431009F70AE /* VKart-MVP-CombineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5417E54D2D2E4431009F70AE /* Build configuration list for PBXNativeTarget "VKart-MVP-CombineTests" */;
+			buildPhases = (
+				5417E5312D2E4431009F70AE /* Sources */,
+				5417E5322D2E4431009F70AE /* Frameworks */,
+				5417E5332D2E4431009F70AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5417E5372D2E4431009F70AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5417E5382D2E4431009F70AE /* VKart-MVP-CombineTests */,
+			);
+			name = "VKart-MVP-CombineTests";
+			packageProductDependencies = (
+			);
+			productName = "VKart-MVP-CombineTests";
+			productReference = 5417E5352D2E4431009F70AE /* VKart-MVP-CombineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5417E53E2D2E4431009F70AE /* VKart-MVP-CombineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5417E5502D2E4431009F70AE /* Build configuration list for PBXNativeTarget "VKart-MVP-CombineUITests" */;
+			buildPhases = (
+				5417E53B2D2E4431009F70AE /* Sources */,
+				5417E53C2D2E4431009F70AE /* Frameworks */,
+				5417E53D2D2E4431009F70AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5417E5412D2E4431009F70AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5417E5422D2E4431009F70AE /* VKart-MVP-CombineUITests */,
+			);
+			name = "VKart-MVP-CombineUITests";
+			packageProductDependencies = (
+			);
+			productName = "VKart-MVP-CombineUITests";
+			productReference = 5417E53F2D2E4431009F70AE /* VKart-MVP-CombineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5417E5172D2E442F009F70AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5417E51E2D2E442F009F70AE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					5417E5342D2E4431009F70AE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5417E51E2D2E442F009F70AE;
+					};
+					5417E53E2D2E4431009F70AE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5417E51E2D2E442F009F70AE;
+					};
+				};
+			};
+			buildConfigurationList = 5417E51A2D2E442F009F70AE /* Build configuration list for PBXProject "VKart-MVP-Combine" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5417E5162D2E442F009F70AE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5417E5202D2E442F009F70AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5417E51E2D2E442F009F70AE /* VKart-MVP-Combine */,
+				5417E5342D2E4431009F70AE /* VKart-MVP-CombineTests */,
+				5417E53E2D2E4431009F70AE /* VKart-MVP-CombineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5417E51D2D2E442F009F70AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417E5332D2E4431009F70AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417E53D2D2E4431009F70AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5417E51B2D2E442F009F70AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417E5312D2E4431009F70AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417E53B2D2E4431009F70AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5417E5372D2E4431009F70AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5417E51E2D2E442F009F70AE /* VKart-MVP-Combine */;
+			targetProxy = 5417E5362D2E4431009F70AE /* PBXContainerItemProxy */;
+		};
+		5417E5412D2E4431009F70AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5417E51E2D2E442F009F70AE /* VKart-MVP-Combine */;
+			targetProxy = 5417E5402D2E4431009F70AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5417E5492D2E4431009F70AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VKart-MVP-Combine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishal.VKart-MVP-Combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5417E54A2D2E4431009F70AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VKart-MVP-Combine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishal.VKart-MVP-Combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5417E54B2D2E4431009F70AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5417E54C2D2E4431009F70AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5417E54E2D2E4431009F70AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishal.VKart-MVP-CombineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKart-MVP-Combine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VKart-MVP-Combine";
+			};
+			name = Debug;
+		};
+		5417E54F2D2E4431009F70AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishal.VKart-MVP-CombineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKart-MVP-Combine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VKart-MVP-Combine";
+			};
+			name = Release;
+		};
+		5417E5512D2E4431009F70AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishal.VKart-MVP-CombineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VKart-MVP-Combine";
+			};
+			name = Debug;
+		};
+		5417E5522D2E4431009F70AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANCZ566948;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishal.VKart-MVP-CombineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VKart-MVP-Combine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5417E51A2D2E442F009F70AE /* Build configuration list for PBXProject "VKart-MVP-Combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5417E54B2D2E4431009F70AE /* Debug */,
+				5417E54C2D2E4431009F70AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5417E5482D2E4431009F70AE /* Build configuration list for PBXNativeTarget "VKart-MVP-Combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5417E5492D2E4431009F70AE /* Debug */,
+				5417E54A2D2E4431009F70AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5417E54D2D2E4431009F70AE /* Build configuration list for PBXNativeTarget "VKart-MVP-CombineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5417E54E2D2E4431009F70AE /* Debug */,
+				5417E54F2D2E4431009F70AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5417E5502D2E4431009F70AE /* Build configuration list for PBXNativeTarget "VKart-MVP-CombineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5417E5512D2E4431009F70AE /* Debug */,
+				5417E5522D2E4431009F70AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5417E5172D2E442F009F70AE /* Project object */;
+}
